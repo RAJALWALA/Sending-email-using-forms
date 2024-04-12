@@ -16,7 +16,7 @@ with col2:
 content2 = """Below you can find Apps that I have buit"""
 st.write(content2)
 
-col3,empty_col, col4 = st. columns([1.5,0.5,1.5])
+col3,empty_col, col4 = st. columns(3)
 
 df = pd.read_csv("data.csv", sep=";")
 
