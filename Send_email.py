@@ -15,4 +15,3 @@ def Send_email(message):
         server.sendmail(user_name, recevier_email, message)
 
 
-
